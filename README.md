@@ -28,3 +28,7 @@ Deploys sugeridos:
 - VPS / Docker host: build e run como mostrado acima.
 # PTI_WEB
 Repositorio Git PTI Web-SENAC
+
+Nota: o arquivo principal foi renomeado para `index.html`. Para manter
+compatibilidade com links ou servidores que esperam `index.php`, foi adicionado
+um `index.php` que redireciona para `index.html`.
